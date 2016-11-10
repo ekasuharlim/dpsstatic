@@ -48,9 +48,13 @@
                   <li><a href="process.php">Assesment and funding process</a></li>
                 </ul>
               </li>
-              <li>
-				<a href="submit.php">Submit Proposal</a>
-			  </li>			  			  
+              <li class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle">Proposal<b class="caret"></b></a>			  				
+                <ul class="dropdown-menu">
+                  <li><a href="downloadform.php">Download form</a></li>
+                  <li><a href="submit.php">Submit Form</a></li>
+                </ul>				
+			  </li>			  
               <li>
 				<a href="contact.php">Contact Us</a>
 			  </li>			  
